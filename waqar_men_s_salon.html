@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAQAR MEN'S SALON | Official Bio Link</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        easypaisa: { DEFAULT: '#00C753', light: '#33D275' },
+                        jazzcash: { DEFAULT: '#ED1C24', light: '#F0494F' }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Cinzel', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000000; color: #ffffff; }
+        .silver-metallic-text {
+            background: linear-gradient(to bottom, #ffffff 0%, #a0a5aa 50%, #606468 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0px 2px 4px rgba(255,255,255,0.1);
+        }
+        .silver-card {
+            background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .silver-card:hover {
+            background: linear-gradient(145deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 0 4px 30px rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen relative overflow-x-hidden selection:bg-white/20 selection:text-white flex flex-col items-center pt-8 pb-12 px-4 sm:px-6">
+    
+    <!-- Ambient Background Effects -->
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/5 blur-[120px] rounded-full"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-white/5 blur-[120px] rounded-full"></div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="w-full max-w-md mx-auto relative z-10 flex flex-col items-center">
+
+        <!-- Top Header Status Bar -->
+        <div class="w-full flex justify-between items-center mb-6 px-1">
+            <div id="status-badge" class="flex items-center gap-2">
+                <span id="status-dot" class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span id="status-text" class="text-[11px] font-semibold tracking-wider text-emerald-400 uppercase">Checking Status...</span>
+            </div>
+            <button onclick="openShareModal()" class="w-9 h-9 rounded-full silver-card flex items-center justify-center text-gray-300 hover:text-white transition-colors" title="Share Page">
+                <i class="fa-solid fa-share-nodes text-xs"></i>
+            </button>
+        </div>
+
+        <!-- OFFICIAL SHOP BANNER BRANDING HEADER -->
+        <div class="flex flex-col items-center text-center mb-8 w-full group relative">
+            
+            <!-- 1. TOP SCISSORS ICON WITH ACCENT HORIZONTAL LINES -->
+            <div class="flex items-center justify-center w-full max-w-xs mb-2">
+                <div class="h-[1.5px] flex-1 bg-gradient-to-r from-transparent via-gray-400 to-gray-200"></div>
+                <div class="px-3 text-white text-lg transform group-hover:rotate-180 transition-transform duration-700">
+                    <i class="fa-solid fa-scissors"></i>
+                </div>
+                <div class="h-[1.5px] flex-1 bg-gradient-to-l from-transparent via-gray-400 to-gray-200"></div>
+            </div>
+
+            <!-- 2. MAIN "WAQAR" TITLE (LARGE BOLD SERIF WITH METALLIC GRADIENT) -->
+            <h1 class="font-serif text-5xl md:text-6xl font-black tracking-wider uppercase leading-none silver-metallic-text my-1">
+                WAQAR
+            </h1>
+
+            <!-- 3. "MEN'S SALON" SANDWICHED BETWEEN TWO THIN WHITE LINES -->
+            <div class="w-full max-w-[280px] my-2">
+                <div class="h-[1px] w-full bg-white/70"></div>
+                <p class="font-serif text-sm font-semibold tracking-[0.35em] text-white uppercase py-1.5 text-center">
+                    MEN'S SALON
+                </p>
+                <div class="h-[1px] w-full bg-white/70"></div>
+            </div>
+
+            <!-- Contact Hotline Pills for Waqar & Gayaz -->
+            <div class="flex flex-wrap justify-center items-center gap-2 mt-3">
+                <a href="tel:03453244216" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-zinc-900 border border-white/20 text-[11px] font-mono text-gray-200 hover:border-white transition-colors">
+                    <i class="fa-solid fa-phone text-[10px] text-emerald-400"></i>
+                    <span class="font-bold">WAQAR: 0345-3244216</span>
+                </a>
+                <a href="tel:03420569541" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-zinc-900 border border-white/20 text-[11px] font-mono text-gray-200 hover:border-white transition-colors">
+                    <i class="fa-solid fa-phone text-[10px] text-emerald-400"></i>
+                    <span class="font-bold">GAYAZ: 0342-0569541</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- LINKS CONTAINER -->
+        <div class="w-full flex flex-col gap-3.5">
+
+            <!-- SECTION HEADER: APPOINTMENTS & SERVICES -->
+            <div class="flex items-center justify-between px-1">
+                <span class="text-[11px] font-bold tracking-[0.2em] text-gray-400 uppercase flex items-center gap-1.5">
+                    <i class="fa-solid fa-calendar-check text-white"></i> Bookings & Contact
+                </span>
+                <span class="h-[1px] flex-1 bg-gradient-to-r from-white/20 to-transparent ml-3"></span>
+            </div>
+
+            <!-- 1. WHATSAPP BOOKING LINK -->
+            <a href="https://wa.me/923453244216?text=Hi!%20I'd%20like%20to%20book%20an%20appointment%20at%20WAQAR%20MEN'S%20SALON." 
+               target="_blank" 
+               class="silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 flex items-center justify-center text-xl group-hover:bg-emerald-500 group-hover:text-black transition-all duration-300 shadow-lg">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="text-left">
+                        <div class="flex items-center gap-2">
+                            <h2 class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">WhatsApp Appointment</h2>
+                            <span class="text-[9px] font-bold bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded-full uppercase border border-emerald-500/30">Book Now</span>
+                        </div>
+                        <p class="text-xs text-gray-400">Instant Barber Booking & Inquiries</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </div>
+            </a>
+
+            <!-- 2. CALL WAQAR DIRECTLY -->
+            <a href="tel:03453244216" 
+               class="silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-white/10 border border-white/20 text-white flex items-center justify-center text-lg group-hover:bg-white group-hover:text-black transition-all duration-300 shadow-lg">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="text-left">
+                        <h2 class="text-sm font-semibold text-white transition-colors">Call Waqar</h2>
+                        <p class="text-xs text-gray-400">0345-3244216</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </div>
+            </a>
+
+            <!-- 3. CALL GAYAZ DIRECTLY -->
+            <a href="tel:03420569541" 
+               class="silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-white/10 border border-white/20 text-white flex items-center justify-center text-lg group-hover:bg-white group-hover:text-black transition-all duration-300 shadow-lg">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="text-left">
+                        <h2 class="text-sm font-semibold text-white transition-colors">Call Gayaz</h2>
+                        <p class="text-xs text-gray-400">0342-0569541</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </div>
+            </a>
+
+            <!-- 4. SERVICES MENU (MODAL TRIGGER - NO PRICES) -->
+            <button onclick="openServicesModal()" 
+                    class="w-full silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden text-left cursor-pointer border-l-4 border-l-gray-300">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-white/10 border border-white/20 text-gray-200 flex items-center justify-center text-lg group-hover:bg-white group-hover:text-black transition-all duration-300 shadow-lg">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h2 class="text-sm font-semibold text-white group-hover:text-gray-200 transition-colors">Services Menu</h2>
+                            <span class="text-[9px] font-bold bg-white/15 text-gray-200 px-2 py-0.5 rounded-full uppercase border border-white/20">All Services</span>
+                        </div>
+                        <p class="text-xs text-gray-400">Groom Makeup, Haircuts, Facials & Treatments</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </div>
+            </button>
+
+            <!-- SECTION HEADER: SOCIAL MEDIA & LOCATION -->
+            <div class="flex items-center justify-between px-1 mt-3">
+                <span class="text-[11px] font-bold tracking-[0.2em] text-gray-400 uppercase flex items-center gap-1.5">
+                    <i class="fa-solid fa-hashtag text-white"></i> Connect & Directions
+                </span>
+                <span class="h-[1px] flex-1 bg-gradient-to-r from-white/20 to-transparent ml-3"></span>
+            </div>
+
+            <!-- 5. INSTAGRAM GALLERY -->
+            <a href="https://instagram.com" 
+               target="_blank" 
+               class="silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-pink-500/15 border border-pink-500/30 text-pink-400 flex items-center justify-center text-xl group-hover:bg-gradient-to-tr group-hover:from-amber-500 group-hover:via-rose-500 group-hover:to-purple-600 group-hover:text-white transition-all duration-300 shadow-lg">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="text-left">
+                        <h2 class="text-sm font-semibold text-white group-hover:text-pink-300 transition-colors">Instagram Gallery</h2>
+                        <p class="text-xs text-gray-400">Haircut Styles & Client Transformations</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                </div>
+            </a>
+
+            <!-- 6. FACEBOOK PAGE -->
+            <a href="https://facebook.com" 
+               target="_blank" 
+               class="silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-blue-500/15 border border-blue-500/30 text-blue-400 flex items-center justify-center text-xl group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-lg">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="text-left">
+                        <h2 class="text-sm font-semibold text-white group-hover:text-blue-300 transition-colors">Facebook Page</h2>
+                        <p class="text-xs text-gray-400">Official Salon News & Reviews</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </div>
+            </a>
+
+            <!-- 7. LOCATION & DIRECTIONS (GOOGLE MAPS) -->
+            <a href="https://maps.app.goo.gl/aXbkytKzr29Q723w6" 
+               target="_blank" 
+               class="silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden border-l-4 border-l-red-500">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-red-500/15 border border-red-500/30 text-red-400 flex items-center justify-center text-xl group-hover:bg-red-600 group-hover:text-white transition-all duration-300 shadow-lg">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <div class="text-left">
+                        <div class="flex items-center gap-2">
+                            <h2 class="text-sm font-semibold text-white group-hover:text-red-300 transition-colors">Salon Location</h2>
+                            <span class="text-[9px] font-bold bg-red-500/20 text-red-400 px-2 py-0.5 rounded-full uppercase border border-red-500/30">Google Maps</span>
+                        </div>
+                        <p class="text-xs text-gray-400">Get Exact Location & Driving Directions</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all z-10 pr-1">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                </div>
+            </a>
+
+
+            <!-- SECTION HEADER: PAYMENTS & ADVANCE -->
+            <div class="flex items-center justify-between px-1 mt-3">
+                <span class="text-[11px] font-bold tracking-[0.2em] text-gray-400 uppercase flex items-center gap-1.5">
+                    <i class="fa-solid fa-wallet text-white"></i> Payment & Advance
+                </span>
+                <span class="h-[1px] flex-1 bg-gradient-to-r from-white/20 to-transparent ml-3"></span>
+            </div>
+
+            <!-- 8. EASYPAISA ACCOUNT -->
+            <button onclick="openPaymentModal('easypaisa')" 
+                    class="w-full silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden text-left cursor-pointer border-l-4 border-l-easypaisa">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-easypaisa/15 border border-easypaisa/30 text-easypaisa-light flex items-center justify-center text-lg font-bold group-hover:bg-easypaisa group-hover:text-white transition-all duration-300 shadow-lg">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h2 class="text-sm font-semibold text-white group-hover:text-easypaisa-light transition-colors">Easypaisa Account</h2>
+                            <span class="text-[9px] font-bold bg-easypaisa/20 text-easypaisa-light px-2 py-0.5 rounded-full uppercase border border-easypaisa/30">View Details</span>
+                        </div>
+                        <p class="text-xs text-gray-400">0345-3244216 • Waqar Men's Salon</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:scale-110 transition-all z-10 pr-1">
+                    <i class="fa-regular fa-copy text-sm"></i>
+                </div>
+            </button>
+
+            <!-- 9. JAZZCASH ACCOUNT -->
+            <button onclick="openPaymentModal('jazzcash')" 
+                    class="w-full silver-card p-4 rounded-2xl flex items-center justify-between group relative overflow-hidden text-left cursor-pointer border-l-4 border-l-jazzcash">
+                <div class="flex items-center gap-4 z-10">
+                    <div class="w-11 h-11 rounded-xl bg-jazzcash/15 border border-jazzcash/30 text-jazzcash-light flex items-center justify-center text-lg font-bold group-hover:bg-jazzcash group-hover:text-white transition-all duration-300 shadow-lg">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h2 class="text-sm font-semibold text-white group-hover:text-jazzcash-light transition-colors">JazzCash Account</h2>
+                            <span class="text-[9px] font-bold bg-jazzcash/20 text-jazzcash-light px-2 py-0.5 rounded-full uppercase border border-jazzcash/30">View Details</span>
+                        </div>
+                        <p class="text-xs text-gray-400">0345-3244216 • Waqar Men's Salon</p>
+                    </div>
+                </div>
+                <div class="text-gray-400 group-hover:text-white group-hover:scale-110 transition-all z-10 pr-1">
+                    <i class="fa-regular fa-copy text-sm"></i>
+                </div>
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="w-full text-center py-8 text-xs text-gray-500 z-10">
+        <p class="font-serif text-white tracking-widest uppercase mb-1">WAQAR MEN'S SALON</p>
+        <p>© <span id="year"></span> All Rights Reserved • Official Bio Link</p>
+    </footer>
+
+
+    <!-- PAYMENT DETAILS MODAL -->
+    <div id="payment-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-300">
+        <div id="modal-card" class="w-full max-w-sm bg-zinc-950 border border-white/20 rounded-3xl p-6 shadow-2xl transform scale-95 transition-all duration-300 relative text-left">
+            
+            <button onclick="closePaymentModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-sm"></i>
+            </button>
+
+            <!-- Modal Header -->
+            <div class="flex items-center gap-3.5 mb-6">
+                <div id="modal-badge-icon" class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl text-white shadow-xl">
+                    <i id="modal-icon" class="fa-solid fa-wallet"></i>
+                </div>
+                <div>
+                    <h3 id="modal-provider-name" class="font-serif text-lg font-bold text-white">Easypaisa Account</h3>
+                    <p class="text-xs text-gray-400">Salon Payment & Advance Transfer</p>
+                </div>
+            </div>
+
+            <!-- Account Details Card -->
+            <div class="space-y-3.5 bg-zinc-900 rounded-2xl p-4 border border-white/10">
+                <div class="flex justify-between items-center pb-3 border-b border-white/10">
+                    <span class="text-xs text-gray-400">Account Title</span>
+                    <span id="modal-account-title" class="text-sm font-semibold text-white">Waqar Men's Salon</span>
+                </div>
+
+                <div class="flex justify-between items-center pt-1">
+                    <div>
+                        <span class="text-xs text-gray-400 block">Account Number</span>
+                        <span id="modal-account-number" class="text-base font-mono font-bold tracking-wider text-emerald-400">0345-3244216</span>
+                    </div>
+                    <button onclick="copyModalNumber()" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-colors border border-white/20">
+                        <i class="fa-regular fa-copy"></i>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- QR Code Box -->
+            <div class="mt-5 text-center flex flex-col items-center">
+                <div class="w-32 h-32 bg-white p-2.5 rounded-2xl shadow-xl flex items-center justify-center border-2 border-gray-300">
+                    <img id="modal-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=03453244216" alt="Account QR Code" class="w-full h-full object-contain">
+                </div>
+                <p class="text-[11px] text-gray-400 mt-2.5">Scan with app or copy number above</p>
+            </div>
+
+            <!-- Action Button -->
+            <div class="mt-6">
+                <button onclick="copyModalNumber()" class="w-full py-3.5 px-4 rounded-xl font-semibold text-sm bg-white hover:bg-gray-200 text-black shadow-lg transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-copy text-sm"></i> Copy Account Number
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- SERVICES MENU MODAL (NO PRICES) -->
+    <div id="services-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-300">
+        <div id="services-card" class="w-full max-w-sm bg-zinc-950 border border-white/20 rounded-3xl p-6 shadow-2xl transform scale-95 transition-all duration-300 relative text-left max-h-[85vh] flex flex-col">
+            
+            <button onclick="closeServicesModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-sm"></i>
+            </button>
+
+            <div class="mb-4">
+                <h3 class="font-serif text-lg font-bold text-white">Salon Services Menu</h3>
+                <p class="text-xs text-gray-400">WAQAR MEN'S SALON</p>
+            </div>
+
+            <!-- Scrollable Services List without Prices -->
+            <div class="overflow-y-auto space-y-3 pr-1 flex-1">
+                <!-- Groom Special 1 -->
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-amber-500/30 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-user-tie text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Groom Makeup</h4>
+                        <p class="text-[11px] text-gray-400">High-definition wedding makeup, skin tone balancing & contouring</p>
+                    </div>
+                </div>
+
+                <!-- Groom Special 2 -->
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-amber-500/30 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-sparkles text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Proper Groom Treatment</h4>
+                        <p class="text-[11px] text-gray-400">Pre-wedding facial detox spa, protein hair therapy & deep skin hydration</p>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-white/10 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-white/10 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-scissors text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Haircut & Modern Styling</h4>
+                        <p class="text-[11px] text-gray-400">Custom consultation, hair wash & blow-dry styling</p>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-white/10 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-white/10 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-layer-group text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Skin Fade & Line Up</h4>
+                        <p class="text-[11px] text-gray-400">Precision razor edge outline & low/mid/high fades</p>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-white/10 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-white/10 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-[#000] fa-spray-can text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Beard Sculpting & Trim</h4>
+                        <p class="text-[11px] text-gray-400">Beard shaping, razor line perfection & oil treatment</p>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-white/10 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-white/10 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-smog text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Hot Towel Razor Shave</h4>
+                        <p class="text-[11px] text-gray-400">Relaxing steam towel shave with post-shave balm</p>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-white/10 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-white/10 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-face-smile text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Facial & Skin Care Treatments</h4>
+                        <p class="text-[11px] text-gray-400">Deep cleansing, whitening facial, scrub & mud mask</p>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 p-3.5 rounded-xl border border-white/10 flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-white/10 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-wand-magic-sparkles text-sm"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-white">Hair Dye & Color Treatment</h4>
+                        <p class="text-[11px] text-gray-400">Natural black dye, beard color & fashion hair shades</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-white/10">
+                <a href="https://wa.me/923453244216?text=Hi!%20I'd%20like%20to%20book%20a%20salon%20service." 
+                   target="_blank" 
+                   class="w-full py-3 px-4 rounded-xl font-semibold text-sm bg-emerald-600 hover:bg-emerald-700 text-white transition-all flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Book Service via WhatsApp
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- SHARE PROFILE MODAL -->
+    <div id="share-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-300">
+        <div id="share-card" class="w-full max-w-sm bg-zinc-950 border border-white/20 rounded-3xl p-6 shadow-2xl transform scale-95 transition-all duration-300 relative text-center">
+            
+            <button onclick="closeShareModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-sm"></i>
+            </button>
+
+            <h3 class="font-serif text-lg font-bold text-white mb-1">Share Salon Profile</h3>
+            <p class="text-xs text-gray-400 mb-5">Scan QR or copy link to share</p>
+
+            <div class="bg-white p-3 rounded-2xl w-36 h-36 mx-auto mb-4 shadow-xl border-2 border-gray-300">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://waqarmenssalon.page" alt="Salon QR Code" class="w-full h-full">
+            </div>
+
+            <div class="bg-zinc-900 rounded-xl p-2.5 flex items-center justify-between border border-white/10 mb-4">
+                <span class="text-xs text-gray-300 truncate px-2 font-mono">https://waqarmenssalon.page</span>
+                <button onclick="copyProfileLink()" class="px-3.5 py-1.5 rounded-lg bg-white hover:bg-gray-200 text-black text-xs font-bold shrink-0 transition-colors">
+                    Copy Link
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast" class="fixed bottom-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex justify-center w-full max-w-md mx-auto left-0 right-0">
+        <div class="px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 border border-white/20 bg-zinc-900 text-white">
+            <div class="w-7 h-7 rounded-full bg-white/20 text-white flex items-center justify-center text-xs">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <span id="toast-message" class="text-sm font-medium text-gray-200">Copied to clipboard!</span>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Automatic Open/Closed Status Logic based on timings: 12:00 PM to 1:00 AM
+        function updateSalonStatus() {
+            const now = new Date();
+            const hours = now.getHours(); // 0 to 23
+
+            // Open between 12:00 PM (12) and 1:00 AM (0 - less than 1 hour)
+            const isOpen = hours >= 12 || hours < 1;
+
+            const statusDot = document.getElementById('status-dot');
+            const statusText = document.getElementById('status-text');
+
+            if (statusDot && statusText) {
+                if (isOpen) {
+                    statusDot.className = "w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse";
+                    statusText.className = "text-[11px] font-semibold tracking-wider text-emerald-400 uppercase";
+                    statusText.textContent = "Open (12:00 PM - 1:00 AM)";
+                } else {
+                    statusDot.className = "w-2.5 h-2.5 rounded-full bg-rose-500";
+                    statusText.className = "text-[11px] font-semibold tracking-wider text-rose-400 uppercase";
+                    statusText.textContent = "Closed Now (Opens 12:00 PM)";
+                }
+            }
+        }
+
+        // Initialize status on load and re-check every minute
+        updateSalonStatus();
+        setInterval(updateSalonStatus, 60000);
+
+        // Official Contact Number: 0345-3244216
+        const paymentAccounts = {
+            easypaisa: {
+                provider: "Easypaisa Account",
+                title: "Waqar Men's Salon",
+                number: "03453244216",
+                icon: "fa-solid fa-wallet",
+                color: "bg-easypaisa",
+                textColor: "text-easypaisa-light"
+            },
+            jazzcash: {
+                provider: "JazzCash Account",
+                title: "Waqar Men's Salon",
+                number: "03453244216",
+                icon: "fa-solid fa-mobile-screen-button",
+                color: "bg-jazzcash",
+                textColor: "text-jazzcash-light"
+            }
+        };
+
+        // Modal Logic
+        const paymentModal = document.getElementById('payment-modal');
+        const modalCard = document.getElementById('modal-card');
+        const servicesModal = document.getElementById('services-modal');
+        const servicesCard = document.getElementById('services-card');
+        const shareModal = document.getElementById('share-modal');
+        const shareCard = document.getElementById('share-card');
+
+        let currentCopyNumber = '';
+
+        function openPaymentModal(provider) {
+            const data = paymentAccounts[provider];
+            currentCopyNumber = data.number;
+
+            document.getElementById('modal-provider-name').textContent = data.provider;
+            document.getElementById('modal-account-title').textContent = data.title;
+            
+            // Format number for display
+            const formattedNumber = data.number.replace(/(\d{4})(\d{7})/, "$1-$2");
+            document.getElementById('modal-account-number').textContent = formattedNumber;
+            
+            // Update QR
+            document.getElementById('modal-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${data.number}`;
+
+            // Update Icon & Colors
+            const badgeIcon = document.getElementById('modal-badge-icon');
+            badgeIcon.className = `w-12 h-12 rounded-2xl flex items-center justify-center text-2xl text-white shadow-xl ${data.color}`;
+            document.getElementById('modal-icon').className = data.icon;
+            
+            // Show modal
+            paymentModal.classList.remove('opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                modalCard.classList.remove('scale-95');
+                modalCard.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closePaymentModal() {
+            modalCard.classList.remove('scale-100');
+            modalCard.classList.add('scale-95');
+            setTimeout(() => {
+                paymentModal.classList.add('opacity-0', 'pointer-events-none');
+            }, 300);
+        }
+
+        function openServicesModal() {
+            servicesModal.classList.remove('opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                servicesCard.classList.remove('scale-95');
+                servicesCard.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closeServicesModal() {
+            servicesCard.classList.remove('scale-100');
+            servicesCard.classList.add('scale-95');
+            setTimeout(() => {
+                servicesModal.classList.add('opacity-0', 'pointer-events-none');
+            }, 300);
+        }
+
+        function openShareModal() {
+            shareModal.classList.remove('opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                shareCard.classList.remove('scale-95');
+                shareCard.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closeShareModal() {
+            shareCard.classList.remove('scale-100');
+            shareCard.classList.add('scale-95');
+            setTimeout(() => {
+                shareModal.classList.add('opacity-0', 'pointer-events-none');
+            }, 300);
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-message').textContent = message;
+            
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        function copyModalNumber() {
+            copyTextToClipboard(currentCopyNumber, "Account Number Copied!");
+        }
+
+        function copyProfileLink() {
+            copyTextToClipboard("https://waqarmenssalon.page", "Link Copied!");
+        }
+
+        function copyTextToClipboard(text, successMessage) {
+            // Fallback for iFrame environments
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";
+            textArea.style.left = "-999999px";
+            textArea.style.top = "-999999px";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    showToast(successMessage);
+                } else {
+                    showToast("Failed to copy!");
+                }
+            } catch (err) {
+                showToast("Failed to copy!");
+            }
+            document.body.removeChild(textArea);
+        }
+
+        // Set Current Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
